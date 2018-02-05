@@ -26,7 +26,8 @@ TARGET_SCREEN_WIDTH := 720
 
 # Charger
 PRODUCT_PACKAGES += \
-    charger_res_images
+    charger_res_images \
+    charger
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ido
