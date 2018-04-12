@@ -1,1 +1,1 @@
-add_lunch_combo omni_ido-userdebug
+add_lunch_combo omni_ido-eng
