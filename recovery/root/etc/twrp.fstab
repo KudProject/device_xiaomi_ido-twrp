@@ -30,5 +30,5 @@
 /modem          vfat      /dev/block/bootdevice/by-name/modem                flags=display="Modem";backup=1;flashimg=1;fsflags=ro
 /firmware       emmc      /dev/block/bootdevice/by-name/sec                  flags=display="Firmware";backup=1
 
-/sdcard1        auto      /dev/block/mmcblk1p1                               flags=storage;wipeingui;removable
+/sdcard1        auto      /dev/block/mmcblk1p1                               flags=display="MicroSD";storage;wipeingui;removable
 /usb-otg        auto      /dev/block/sda1                                    flags=storage;wipeingui;removable
