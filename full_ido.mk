@@ -24,11 +24,6 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
-# Charger
-PRODUCT_PACKAGES += \
-    charger_res_images \
-    charger
-
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ido
 PRODUCT_NAME := full_ido
