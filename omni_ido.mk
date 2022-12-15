@@ -1,3 +1,4 @@
+#
 # Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -11,13 +12,20 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
 
 ## Specify phone tech before including full_phone
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
-$(call inherit-product, device/xiaomi/ido/full_ido.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
+# Device identifier. This must come after all inclusions
+PRODUCT_DEVICE := ido
 PRODUCT_NAME := omni_ido
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := Redmi 3
+PRODUCT_MANUFACTURER := Xiaomi
