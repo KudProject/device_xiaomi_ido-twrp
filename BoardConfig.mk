@@ -91,3 +91,5 @@ TW_EXTRA_LANGUAGES := true
 TW_INCLUDE_NTFS_3G := true
 TW_MAX_BRIGHTNESS := 255
 TW_THEME := portrait_hdpi
+
+-include vendor/kud/config/recovery.mk
