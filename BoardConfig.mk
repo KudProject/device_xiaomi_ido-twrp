@@ -18,8 +18,6 @@
 
 LOCAL_PATH := device/xiaomi/ido
 
-TARGET_BOARD_VENDOR := xiaomi
-
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8916
 TARGET_NO_BOOTLOADER := true
